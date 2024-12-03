@@ -29,7 +29,7 @@ DifferentialDrive differentialDrive = new DifferentialDrive(motorLeft, motorRigh
     /** Creates a new ExampleSubsystem. */
   public DriveTrainSubsystem() {
     //encoderIzquierdo.setPosition(0);??? preguntar
-    motorRight.setInverted(true);
+    motorLeft.setInverted(true);
     encoderDerecho.setSamplesToAverage(5);
     encoderIzquierdo.setSamplesToAverage(5);
 
